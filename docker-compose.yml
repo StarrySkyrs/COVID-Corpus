@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  backend:
+    image: starryskyr/backend
+    pull_policy: always
+    container_name: backend
+    ports:
+      - 8000:8000
+
+  frontend:
+    image: starryskyr/frontend
+    pull_policy: always
+    container_name: frontend
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+
+  
