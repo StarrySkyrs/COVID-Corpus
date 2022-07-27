@@ -5,6 +5,7 @@
 ## Introduction
 
 With the COVID-19 quick spread, we built a COVID corpus for researches related to COVID-19. We collected tweets by searching the keyword 'covid' and we have excluded the retweets, replies, links or tweets including any emojis. The collected tweets were published between Feb. 23 2022 to Mar. 02 2022. We annotated 1000 tweets by two annotators on two fields: sentiment and topics. After filtering out the disagreed annotated data, we have 494 texts in our corpus.
+![image](https://user-images.githubusercontent.com/52539176/181151007-09ab2c5f-6b98-41ec-8e87-7ef3be7cda98.png)
 
 ## Setup Insturction
 
